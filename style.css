@@ -1,0 +1,255 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("https://img.freepik.com/vetores-gratis/gradiente-de-luxo-abstrato-de-linha-de-fundo_483537-3268.jpg") no-repeat center
+    center fixed;
+    background-size: cover;
+    font-family: "Gabarito", sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  
+  .logo-topo {
+    text-align: center;
+    padding-top: 0.5rem;
+  }
+  
+  .logo-topo img {
+    max-width: 200px;
+    width: auto;
+    height: auto;
+    margin: 0.2rem auto 0 auto; 
+  }
+  
+  /* Caixa principal do jogo */
+  .container conteudo-jogo {
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 5px #ff1b7b;
+    margin: 50px;
+    padding: 0 20px 20px;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    padding-top: 10px;
+  }
+  
+  .container .conteudo-jogo:hover {
+    box-shadow: 0 0 5px #19caca;
+  }
+  
+  /* Conteúdo do Jogo */
+.conteudo-jogo {
+    background: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 0 15px rgba(25, 202, 202, 0.5);
+    border-radius: 15px;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto 1rem;
+    transition: all 0.3s ease;
+}
+
+.conteudo-jogo:hover {
+    box-shadow: 0 0 25px rgba(25, 202, 202, 0.8);
+}
+
+  /* Títulos */
+  .titulo h1 {
+    color: aqua;
+    margin-top: 10px;
+    text-align: center;
+    align-content: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+ }
+
+ .texto-intro p {
+    text-align: center;
+    margin-top: 0;
+    color: #ffffff;
+    font-family: "Gabarito", sans-serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.cabecalho {
+    margin-bottom: 20px;   
+    text-align: center;
+    margin: 1rem 0;
+}
+ 
+
+  /* Estrutura do questionário */
+  .questionario {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    width: 70%;
+    max-width: 70%;
+  }
+  
+  /* Área de conteúdo */
+  .conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    gap: 20px;
+  }
+  
+  /* Estilo da pergunta */
+  .pergunta {
+    font-weight: 600;
+    color: white;
+    font-size: 26px;
+  }
+
+ 
+  /* Progresso da pergunta */
+  .progresso {
+    text-align: end;
+    font-weight: 500;
+    color: white;
+    font-size: 18px;
+    padding: 0 15px 10px 0;
+    /* align-self: flex-end; */
+    /* margin-left: 250px; */
+  }
+  
+  /* Área das respostas */
+  .respostas {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  /* Botões de resposta */
+  .botao-resposta {
+    width: 143%;
+    height: 2.5rem;
+    text-align: start;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background: #ff1b7b;
+    color: white;
+  }
+  
+  .botao-resposta:hover {
+    background: #19caca;
+    font-weight: 600;
+  }
+  
+  /* Tela de fim do jogo */
+  .fim {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .fim span {
+    margin-bottom: 2rem;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+  }
+  
+  /* Rodapé */
+.rodape {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 1rem; 
+    text-align: center;
+    margin-top: auto;
+}
+
+.rodape h2{
+    color: aqua;
+    text-align: center;
+    align-content: center;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 10px;
+    color: #ffffff;
+    font-family: "Gabarito", sans-serif;
+    font-weight: bold;
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Responsividade */
+
+@media (min-width: 769px) {
+    .progresso {
+        font-size: 20px;
+        padding-right: 20px;
+        position: relative;
+        text-align: right;
+        margin-left: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .titulo h1 {
+        font-size: 1rem;
+        margin-top: 5px;
+    }
+
+    .texto-intro p {
+        font-size: 1rem;
+    }
+
+    .conteudo-jogo {
+        padding: 1.5rem;
+        margin: 0 auto 1rem;
+        width: 90%;
+    }
+
+    .logo-topo img {
+        max-width: 120px;
+        margin: 0.5rem auto 0 auto;
+    }
+
+    .cabecalho {
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .titulo h1 {
+        font-size: 1.8rem;
+    }
+
+    .conteudo-jogo {
+        padding: 1rem;
+        width: 95%;
+    }
+
+    .pergunta {
+        font-size: 1.2rem;
+    }
+
+    .botao-resposta {
+        height: auto;
+        padding: 12px;
+    }
+}
