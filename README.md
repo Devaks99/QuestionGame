@@ -2,8 +2,9 @@
 ![tela1 questiongame](https://github.com/user-attachments/assets/954a97b5-99b3-455b-a761-c7d1f167a89a)
 
 
-Seja bem-vindo(a) ao **Question Game**! Um jogo divertido de perguntas e respostas comandado por um mascote muito especial: o Miau! 😺🎉  
-Teste seus conhecimentos em tecnologia, curiosidades gerais e se divirta enquanto aprende! O projeto foi criado inicialmente no CodePen durante a imersão Dev da Alura e depois desenvolvido por mim no Vscode.
+Seja bem-vindo(a) ao **Question Game**! Um jogo divertido de perguntas e respostas comandado por um mascote muito especial: o Miau!😺  
+Teste seus conhecimentos em tecnologia, curiosidades gerais e se divirta enquanto aprende! 
+O projeto foi criado inicialmente no CodePen durante a imersão Dev da Alura e depois desenvolvido por mim no Vscode.
 
 ---
 
