@@ -64,7 +64,7 @@ perguntas = [
       ]
     },
     {
-      pergunta: "Qual animal é conhecido como o \rei da selva\?",
+      pergunta: "Qual animal é conhecido como o \ rei da selva\?",
       respostas: [
         { opcao: "Tigre", correto: false },
         { opcao: "Leão", correto: true },
