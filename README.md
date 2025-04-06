@@ -3,7 +3,7 @@
 
 
 Seja bem-vindo(a) ao **Question Game**! Um jogo divertido de perguntas e respostas comandado por um mascote muito especial: o Miau! 😺🎉  
-Teste seus conhecimentos em tecnologia, curiosidades gerais e se divirta enquanto aprende!
+Teste seus conhecimentos em tecnologia, curiosidades gerais e se divirta enquanto aprende! O projeto foi criado inicialmente no CodePen durante a imersão Dev da Alura e depois desenvolvido por mim no Vscode.
 
 ---
 
@@ -47,3 +47,24 @@ O **Miau** é o anfitrião desse quiz! Ele está aqui para te desafiar com pergu
 1. Clone este repositório:
    ```bash
    git clone https://github.com/Devaks99/QuestionGame.git
+
+---
+
+## 📌 Créditos
+
+🎯 Desenvolvido com ❤️ por [Ana Karla (Devaks99)](https://github.com/Devaks99)
+Projeto criado durante a Imersão Dev da Alura.
+📸 Imagens de fundo por Freepik.
+
+---
+
+## 🐾 Licença
+
+MIT License © 2025 Ana Karla
+Todos os direitos reservados.
+
+---
+
+## ⭐ Curtiu o projeto?
+Deixa uma ⭐ aqui no repositório e compartilhe com seus amigos!
+Vamos ver quem acerta mais perguntas! 😄🎉
