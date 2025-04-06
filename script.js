@@ -1,7 +1,7 @@
 // PARTE 1: Lista de perguntas e respostas
 perguntas = [
     {
-      pergunta: "Qual linguagem é conhecida por rodar no navegador sem precisar de instalação?",
+      pergunta: "Qual linguagem roda no navegador sem precisar instalar?",
       respostas: [
         { opcao: "Python", correto: false },
         { opcao: "C++", correto: false },
@@ -82,7 +82,7 @@ perguntas = [
       ]
     },
     {
-      pergunta: "Qual destes não é um framework popular de JavaScript para o desenvolvimento front-end?",
+      pergunta: "Qual não é um framework front-end popular de JavaScript?",
       respostas: [
         { opcao: "React", correto: false },
         { opcao: "Angular", correto: false },
@@ -274,22 +274,38 @@ function carregarPergunta() {
 }
 
   // PARTE 5: Função para mostrar a tela final
-  function finalizarJogo() {
-    textoFinal.innerHTML = `Você acertou ${acertos} de ${perguntas.length}`; // Exibe o resultado
-    conteudo.style.display = "none"; // Esconde as perguntas
-    conteudoFinal.style.display = "flex"; // Mostra a tela final
-  
-    // Adiciona o alert.prompt para parabenizar o usuário
-    const nomeUsuario = prompt(`Parabéns! Você completou o questionário com ${acertos} acertos em ${perguntas.length} perguntas.\nDigite seu nome para registrar seu resultado:`);
-  
-    if (nomeUsuario) {
+ function finalizarJogo() {
+  textoFinal.innerHTML = `Você acertou ${acertos} de ${perguntas.length}`; // Exibe o resultado
+  conteudo.style.display = "none"; // Esconde as perguntas
+  conteudoFinal.style.display = "flex"; // Mostra a tela final
+  document.querySelector(".botao-reiniciar").style.display = "inline-block";
+
+  // Adiciona o alert.prompt para parabenizar o usuário
+  const nomeUsuario = prompt(`Parabéns! Você completou o questionário com ${acertos} acertos em ${perguntas.length} perguntas.\nDigite seu nome para registrar seu resultado:`);
+
+  if (nomeUsuario) {
       alert(`Parabéns, ${nomeUsuario}! Seu resultado foi registrado: ${acertos} de ${perguntas.length} acertos.`);
       // Aqui você pode adicionar lógica para salvar o resultado do usuário, se desejar.
       console.log(`Resultado de ${nomeUsuario}: ${acertos}/${perguntas.length}`);
-    } else {
+  } else {
       alert(`Parabéns! Seu resultado foi: ${acertos} de ${perguntas.length} acertos.`);
-    }
   }
+}
+
+// Função de reinício separada
+function reiniciarJogo() {
+  indiceAtual = 0;
+  acertos = 0;
+  conteudo.style.display = "block";
+  conteudoFinal.style.display = "none";
+  document.querySelector(".botao-reiniciar").style.display = "none";
+  carregarPergunta();
+}
+
+// Adicione o event listener após o DOM carregar
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelector(".botao-reiniciar").onclick = reiniciarJogo;
+});
 
 // PARTE 6: Iniciando o jogo pela primeira vez
 carregarPergunta();
