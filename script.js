@@ -37,7 +37,7 @@ perguntas = [
       ]
     },
     {
-      pergunta: "Quem pintou a obra \Mona Lisa\?",
+      pergunta: "Quem pintou a obra \ Mona Lisa\?",
       respostas: [
         { opcao: "Michelangelo", correto: false },
         { opcao: "Van Gogh", correto: false },
@@ -64,7 +64,7 @@ perguntas = [
       ]
     },
     {
-      pergunta: "Qual animal é conhecido como o \ rei da selva\?",
+      pergunta: "Qual animal é conhecido como o \ Rei da selva\?",
       respostas: [
         { opcao: "Tigre", correto: false },
         { opcao: "Leão", correto: true },
