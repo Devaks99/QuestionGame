@@ -4,7 +4,7 @@
 
 
 Seja bem-vindo(a) ao **Question Game**! Um jogo divertido de perguntas e respostas comandado por um mascote muito especial: o Miau!😺  
-Teste seus conhecimentos em tecnologia, curiosidades gerais e se divirta enquanto aprende! 
+Teste seus conhecimentos em curiosidades gerais e se divirta enquanto aprende! 
 O projeto foi criado inicialmente no CodePen durante a imersão Dev da Alura e depois desenvolvido por mim no Vscode.
 
 ---
