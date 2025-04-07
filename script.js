@@ -1,33 +1,6 @@
 // PARTE 1: Lista de perguntas e respostas
 perguntas = [
     {
-      pergunta: "Qual linguagem roda no navegador sem precisar instalar?",
-      respostas: [
-        { opcao: "Python", correto: false },
-        { opcao: "C++", correto: false },
-        { opcao: "JavaScript", correto: true },
-        { opcao: "Ruby", correto: false }
-      ]
-    },
-    {
-      pergunta: "Qual desses é um sistema de controle de versão?",
-      respostas: [
-        { opcao: "Git", correto: true },
-        { opcao: "Linux", correto: false },
-        { opcao: "Apache", correto: false },
-        { opcao: "Node.js", correto: false }
-      ]
-    },
-    {
-      pergunta: "O que significa a sigla \HTML\?",
-      respostas: [
-        { opcao: "HighText Machine Language", correto: false },
-        { opcao: "HyperText Markup Language", correto: true },
-        { opcao: "HyperTool Multi Language", correto: false },
-        { opcao: "Hyper Transfer Machine Language", correto: false }
-      ]
-    },
-    {
       pergunta: "Qual é o maior planeta do sistema solar?",
       respostas: [
         { opcao: "Saturno", correto: false },
@@ -79,51 +52,6 @@ perguntas = [
         { opcao: "Alumínio", correto: false },
         { opcao: "Mercúrio", correto: true },
         { opcao: "Cobre", correto: false }
-      ]
-    },
-    {
-      pergunta: "Qual não é um framework front-end popular de JavaScript?",
-      respostas: [
-        { opcao: "React", correto: false },
-        { opcao: "Angular", correto: false },
-        { opcao: "Vue.js", correto: false },
-        { opcao: "Spring", correto: true }
-      ]
-    },
-    {
-      pergunta: "Qual a função principal de um banco de dados?",
-      respostas: [
-        { opcao: "Executar código no lado do servidor, correto: false }", correto: false},
-        { opcao: "Armazenar e organizar dados de forma estruturada", correto: true },
-        { opcao: "Definir o estilo visual de uma página web", correto: false },
-        { opcao: "Controlar o versionamento de código", correto: false }
-      ]
-    },
-    {
-      pergunta: "O que é um algoritmo em ciência da computação?",
-      respostas: [
-        { opcao: "Um tipo de hardware de computador", correto: false },
-        { opcao: "Uma linguagem de programação específica", correto: false },
-        { opcao: "Uma sequência finita de instruções para resolver um problema", correto: true },
-        { opcao: "Um software para edição de imagens", correto: false }
-      ]
-    },
-    {
-      pergunta: "Em programação, o que é uma função?",
-      respostas: [
-        { opcao: "Um valor booleano (verdadeiro ou falso)", correto: false },
-        { opcao: "Um bloco de código reutilizável que realiza uma tarefa específica", correto: true },
-        { opcao: "Um erro que ocorre durante a execução de um programa", correto: false },
-        { opcao: "Um tipo de variável que armazena números inteiros", correto: false }
-      ]
-    },
-    {
-      pergunta: "Qual o propósito principal de um loop (laço de repetição) em programação?",
-      respostas: [
-        { opcao: "Declarar variáveis", correto: false },
-        { opcao: "Definir a estrutura de dados", correto: false },
-        { opcao: "Executar um bloco de código repetidamente até que uma condição seja atendida", correto: true },
-        { opcao: "Comentar o código para melhor entendimento", correto: false }
       ]
     },
     {
@@ -214,6 +142,96 @@ perguntas = [
         { opcao: "Deserto da Arábia", correto: false },
         { opcao: "Deserto de Gobi", correto: false },
         { opcao: "Deserto da Antártida", correto: true }
+      ]
+    },
+    {
+      pergunta: "Qual é a substância natural mais dura da Terra?",
+      respostas: [
+        { opcao: "Quartzo", correto: false },
+        { opcao: "Diamante", correto: true },
+        { opcao: "Grafite", correto: false },
+        { opcao: "Topázio", correto: false }
+      ]
+    },
+    {
+      pergunta: "Qual planeta é conhecido como 'Planeta Vermelho'?",
+      respostas: [
+        { opcao: "Vênus", correto: false },
+        { opcao: "Marte", correto: true },
+        { opcao: "Júpiter", correto: false },
+        { opcao: "Saturno", correto: false }
+      ]
+    },
+    {
+      pergunta: "Quem desenvolveu a Teoria da Relatividade?",
+      respostas: [
+        { opcao: "Isaac Newton", correto: false },
+        { opcao: "Albert Einstein", correto: true },
+        { opcao: "Stephen Hawking", correto: false },
+        { opcao: "Galileu Galilei", correto: false }
+      ]
+    },
+    {
+      pergunta: "Qual é a capital do Canadá?",
+      respostas: [
+        { opcao: "Toronto", correto: false },
+        { opcao: "Vancouver", correto: false },
+        { opcao: "Ottawa", correto: true },
+        { opcao: "Montreal", correto: false }
+      ]
+    },
+    {
+      pergunta: "Qual país é o berço dos Jogos Olímpicos da Antiguidade?",
+      respostas: [
+        { opcao: "Egito", correto: false },
+        { opcao: "Itália", correto: false },
+        { opcao: "Grécia", correto: true },
+        { opcao: "China", correto: false }
+      ]
+    },
+    {
+      pergunta: "O que significa 'www' em uma URL de site?",
+      respostas: [
+        { opcao: "World Wide Web", correto: true },
+        { opcao: "Wireless Web World", correto: false },
+        { opcao: "Web World Wave", correto: false },
+        { opcao: "World Web Window", correto: false }
+      ]
+    },
+    {
+      pergunta: "Qual elemento químico tem número atômico 1?",
+      respostas: [
+        { opcao: "Hélio", correto: false },
+        { opcao: "Hidrogênio", correto: true },
+        { opcao: "Oxigênio", correto: false },
+        { opcao: "Lítio", correto: false }
+      ]
+    },
+    {
+      pergunta: "Quem escreveu o livro '1984'?",
+      respostas: [
+        { opcao: "George Orwell", correto: true },
+        { opcao: "J.K. Rowling", correto: false },
+        { opcao: "Ernest Hemingway", correto: false },
+        { opcao: "F. Scott Fitzgerald", correto: false }
+      ]
+    },
+    {
+      pergunta: "Qual é o principal ingrediente do guacamole?",
+      respostas: [
+        { opcao: "Tomate", correto: false },
+        { opcao: "Cebola", correto: false },
+        { opcao: "Abacate", correto: true },
+        { opcao: "Pimenta", correto: false }
+      ]
+    },
+    {
+      pergunta: "Em que ano o Titanic afundou?",
+      respostas: [
+        { opcao: "1905", correto: false },
+        { opcao: "1912", correto: true },
+        { opcao: "1920", correto: false },
+        { opcao: "1898", correto: false }
       ]
     }
   ];
