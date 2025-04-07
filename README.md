@@ -1,5 +1,6 @@
 # 🐾 Question Game – Responda se for capaz! 🎮💡
-![tela1 questiongame](https://github.com/user-attachments/assets/954a97b5-99b3-455b-a761-c7d1f167a89a)
+![tela 1 question-game](https://github.com/user-attachments/assets/e473298a-599d-471a-b0bc-14f604408330)
+
 
 
 Seja bem-vindo(a) ao **Question Game**! Um jogo divertido de perguntas e respostas comandado por um mascote muito especial: o Miau!😺  
@@ -31,9 +32,12 @@ O projeto foi criado inicialmente no CodePen durante a imersão Dev da Alura e d
 
 ## 📸 screenshots
 
-![tela2 questiongame](https://github.com/user-attachments/assets/e467bb6d-bc04-4656-8433-f7b0dbac4bbe)
+![tela 2 questiongame](https://github.com/user-attachments/assets/7a2769d3-f440-4532-b5f0-376f745e58ae)
 
-![tela3 questiongame](https://github.com/user-attachments/assets/e02ccbc7-afe0-4a46-b93e-818cf8edadbf)
+![tela resultado questiongame](https://github.com/user-attachments/assets/156e642b-6670-44f9-9cd7-6291cb2fe194)
+
+![tela final questiongame](https://github.com/user-attachments/assets/56454beb-384c-4290-bd5d-7f1db4318d30)
+
 
 ---
 
